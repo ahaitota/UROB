@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hw1"
+version = "0.1.0"
+description = "The first assignment for the UROB course."
+authors = [
+    { name = "Aleš Kučera", email = "kuceral4@fel.cvut.cz" }
+]
+readme = "README.md"
+
+[project.scripts]
+hw1-submit = "scripts:submit"
+hw1-test-env = "scripts:test_env"
+hw1-test-assignments = "scripts:test"
+
+[tool.setuptools.packages.find]
+where = ["src"]

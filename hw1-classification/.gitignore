@@ -1,0 +1,17 @@
+submission.zip
+data/datasets/CIFAR10/
+
+data/models/*
+!data/models/.gitkeep
+
+#data/videos/*
+#!data/videos/.gitkeep
+
+*.zip
+*.pyc
+*__pycache__*
+.pixi
+*.egg-info
+
+.idea/
+.vscode/
